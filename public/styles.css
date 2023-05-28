@@ -1,0 +1,247 @@
+body {
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(198, 1%, 29%);
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 130%;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 600px;
+  min-width: 500px;
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading h1 {
+  flex: 1 1 auto;
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  font-size: 1.5rem;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.general-color{
+  background-color: #fdcb6e;
+}
+
+.work-color{
+  background-color: #B0DAFF;
+}
+
+.studies-color{
+  background-color: #A0D8B3;
+}
+
+.nav-button {
+  flex: 0 0 auto;
+  border: none;
+  position: static;
+  width: 50px;
+  height: 50px;
+  background-color: #fdcb6e;
+  border-radius: 50%;
+  color: hsl(198, 1%, 29%);
+  font-size: 32px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.work {
+  background-color: #B0DAFF;
+}
+
+.study {
+  background-color: #A0D8B3;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: hsla(260, 2%, 25%, 0.7);
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+input.general-input {
+  border-bottom: dashed 3px #fdcb6e;
+}
+
+input.work-input {
+  border-bottom: dashed 3px #B0DAFF;
+}
+
+input.studies-input {
+  border-bottom: dashed 3px #A0D8B3;
+}
+
+
+
+button.add {
+  padding: 0;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button span {
+  background: #f1f5f8;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid hsl(198, 1%, 29%);
+}
+
+/* Style for the checkbox */
+
+ul {
+  padding-left: 5px;
+}
+
+li {
+  list-style-type: none; /* Remove default bullet points */
+  text-align: left;
+  padding: 0.5rem;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/* Custom checkbox style */
+label.checkbox {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 200px;
+}
+
+/* Checkbox design */
+label.checkbox::before {
+  margin-top: 2px;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  border: 2px solid #000;
+  background-color: #fff;
+}
+
+/* Checked checkbox design */
+input[type="checkbox"]:checked + label.checkbox::before {
+  background-color: black;
+  border-color: black;
+}
+
+/* Checkmark design */
+label.checkbox::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Checked checkmark design */
+input[type="checkbox"]:checked + label.checkbox::after {
+  display: block;
+  left: 6.5px;
+  top: 9px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  background-color: black;
+}
+
+.delete {
+  position: absolute;
+  right: 5%;
+  font-family: "Architects Daughter";
+  margin-top: 1%;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+}
+
+.delete::before,
+.delete::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 3px;
+  background-color: hsl(198, 1%, 29%);
+}
+
+.delete::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.delete::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.edit {
+  position: absolute;
+  border-radius: 50%;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  margin-top: 1%;
+  width: 26px;
+  height: 26px;
+  right: 15%;
+}
+
+.edit-input {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: solid 3px transparent;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  width: 40%;
+}
