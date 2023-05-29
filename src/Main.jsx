@@ -14,8 +14,11 @@ function Main() {
 
   useEffect(() => {
     localStorage.setItem("items", JSON.stringify(items));
-    localStorage.setItem("id", JSON.stringify(idCounter));
 }, [items]);
+
+  useEffect(() => {
+    localStorage.setItem("id", JSON.stringify(idCounter));
+  },[idCounter])
 
 
     useEffect(() => {
