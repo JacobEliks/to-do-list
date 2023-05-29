@@ -12,8 +12,12 @@ function Work() {
 
   useEffect(() => {
     localStorage.setItem("workItems", JSON.stringify(workItems));
-    localStorage.setItem("idCounter3", JSON.stringify(idCounter3));
 }, [workItems]);
+
+  useEffect(() => {
+    localStorage.setItem("idCounter3", JSON.stringify(idCounter3));
+  }, [idCounter3])
+
 
   useEffect(() => {
     const body = document.querySelector('body');
