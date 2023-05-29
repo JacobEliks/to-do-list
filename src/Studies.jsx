@@ -12,8 +12,11 @@ function Studies() {
 
   useEffect(() => {
     localStorage.setItem("studyItems", JSON.stringify(studyItems));
-    localStorage.setItem("idCounter2", JSON.stringify(idCounter2));
 }, [studyItems]);
+
+  useEffect(() => {
+    localStorage.setItem("idCounter2", JSON.stringify(idCounter2));
+  },[idCounter2])
 
   useEffect(() => {
     const body = document.querySelector('body');
