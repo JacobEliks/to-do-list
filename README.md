@@ -29,3 +29,10 @@ To run the application locally on your machine, follow these steps:
    ```bash
    npm install
    ```
+4. Start the development server with:
+   
+    ```bash
+   npm start
+   ```
+6. Open your browser and visit http://localhost:3000 to access the to-do list application.
+
