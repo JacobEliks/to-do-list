@@ -34,5 +34,13 @@ To run the application locally on your machine, follow these steps:
     ```bash
    npm start
    ```
-6. Open your browser and visit http://localhost:3000 to access the to-do list application.
+5. Open your browser and visit http://localhost:3000 to access the to-do list application.
+
+## Deployment
+
+The application is already deployed and accessible online. You can visit the live demo by following this link: [https://your-app-url.com](https://jacobs-to-do.netlify.app)
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, improvements, or bug reports, please feel free to open an issue or submit a pull request.
 
