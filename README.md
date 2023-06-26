@@ -38,7 +38,7 @@ To run the application locally on your machine, follow these steps:
 
 ## Deployment
 
-The application is already deployed and accessible online. You can visit the live demo by following this link: [https://your-app-url.com](https://jacobs-to-do.netlify.app)
+The application is already deployed and accessible online. You can visit the live demo by following this link: https://jacobs-to-do.netlify.app
 
 ## Contributing
 
