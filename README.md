@@ -6,12 +6,10 @@ Check out the live demo of the application: https://jacobs-to-do.netlify.app
 
 ## Features
 
-- Add tasks with due dates and priorities
+- Add tasks under different themes
 - Mark tasks as complete or incomplete
 - Edit existing tasks
 - Delete tasks
-- Filter tasks by status (completed/incomplete)
-- Sort tasks by due date or priority
 - Responsive design for optimal usage on various devices
 
 ## Technologies Used
@@ -19,7 +17,6 @@ Check out the live demo of the application: https://jacobs-to-do.netlify.app
 - React: A JavaScript library for building user interfaces
 - HTML: Markup language for structuring the application
 - CSS: Styling the components and layouts
-- [Additional libraries or frameworks if used]
 
 ## Getting Started
 
@@ -31,3 +28,4 @@ To run the application locally on your machine, follow these steps:
 
    ```bash
    npm install
+   ```
