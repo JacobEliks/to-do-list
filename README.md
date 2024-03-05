@@ -1,6 +1,6 @@
 # React To-Do List
 
-Welcome to the React To-Do List application! This is a simple and intuitive to-do list where you can manage your tasks efficiently.
+Welcome to the React To-Do List application! This is an intuitive to-do list where you can manage your tasks efficiently.
 
 Check out the live demo of the application: https://jacobs-to-do.netlify.app
 
